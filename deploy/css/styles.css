@@ -13,6 +13,13 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --gray-blue: #8EB5D9;
+  --yellow: #F5C844;
+  --light-blue: #7CC4D6;
+  --turquoise: #23B7CD;
+  --blue-green: #069FAF;
+  --dark-gray: #6A6C76
+  --dark-green: #173036;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,10 +334,6 @@ template {
 /* =============
     Base
 ============= */
-.hero-images {
-  width: 50%;
-}
-
 /* =============
     Typography
 ============= */
