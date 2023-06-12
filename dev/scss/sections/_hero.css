@@ -1,0 +1,9 @@
+#hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero .";
+}
+#hero #hero-image {
+  width: 50%;
+  height: 65vh;
+}

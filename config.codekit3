@@ -48,6 +48,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/bckgrnd image 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 185897,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/bckgrnd image 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/bckgrnd image 3.jpg" : {
+      "ft" : 16384,
+      "iS" : 185897,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/bckgrnd image 3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/bckgrnd image 4.jpg" : {
+      "ft" : 16384,
+      "iS" : 117175,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/bckgrnd image 4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/business_image 15.jpg" : {
       "ft" : 16384,
       "iS" : 82655,
@@ -93,6 +132,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/hobby_image 17.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/Home Image Frame.jpg" : {
+      "ft" : 16384,
+      "iS" : 303630,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Home Image Frame.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -278,6 +330,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/bckgrnd image 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 185897,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/bckgrnd image 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/bckgrnd image 3.jpg" : {
+      "ft" : 16384,
+      "iS" : 185897,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/bckgrnd image 3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/bckgrnd image 4.jpg" : {
+      "ft" : 16384,
+      "iS" : 117175,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/bckgrnd image 4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/business_image 15.jpg" : {
       "ft" : 16384,
       "iS" : 82655,
@@ -323,6 +414,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hobby_image 17.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Home Image Frame.jpg" : {
+      "ft" : 16384,
+      "iS" : 303630,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Home Image Frame.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -747,7 +851,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/checkout.scss" : {
+    "\/dev\/scss\/sections\/_checkout.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -756,13 +860,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/checkout.css",
+      "oAP" : "\/dev\/scss\/sections\/_checkout.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/community.scss" : {
+    "\/dev\/scss\/sections\/_community.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -771,13 +875,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/community.css",
+      "oAP" : "\/dev\/scss\/sections\/_community.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/faq.scss" : {
+    "\/dev\/scss\/sections\/_faq.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -786,13 +890,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/faq.css",
+      "oAP" : "\/dev\/scss\/sections\/_faq.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/hero.scss" : {
+    "\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -801,13 +905,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/hero.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/info.scss" : {
+    "\/dev\/scss\/sections\/_info.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -816,7 +920,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/info.css",
+      "oAP" : "\/dev\/scss\/sections\/_info.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

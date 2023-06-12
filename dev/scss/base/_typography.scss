@@ -2,4 +2,36 @@
     Typography
 ============= */
 
+h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 500;
+}
+
+a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+li{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    
+}
+
+button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+form{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
 //font-family: 'Ubuntu', sans-serif;

@@ -111,9 +111,7 @@ html {
     }
 }
 //Usage
-// @include sm{
-//     grid-template-columns: 100%;
-// }
+//@include sm{ grid-template-columns: 100%;}
 
 
 // Medium devices
@@ -123,9 +121,7 @@ html {
     }
 }
 //Usage
-// @include md{
-//     grid-template-columns: 20% 80%;
-// }
+//@include md{grid-template-columns: 20% 80%;}
 
 
 // Large devices
@@ -135,9 +131,7 @@ html {
     }
 }
 //Usage
-// @include lg{
-//     grid-template-columns: repeat(3, 1fr);
-// }
+//@include lg{grid-template-columns: repeat(3, 1fr);}
 
 
 // Extra large devices
@@ -147,9 +141,7 @@ html {
     }
 }
 //Usage
-// @include xl{
-//     grid-template-columns: repeat(4, 1fr);
-// }
+//@include xl{grid-template-columns: repeat(4, 1fr);}
 
 // Super Extra large devices
 @mixin xxl {
