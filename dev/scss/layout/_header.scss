@@ -4,4 +4,38 @@
 
 header{
     background-color: var(--dark-green);
+
+    section{
+
+        a{
+            i{
+            
+            }
+            
+        }
+    }
+
+    section{
+        img{
+            width: 50%;
+
+        }
+
+        display: grid;
+        grid-template-columns: 16px, auto, 16px;
+        grid-template-areas: ". header .";
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    section{
+        form{
+
+            input{
+                background-color: var(--gray-blue);
+
+            }
+        }
+    }
 }

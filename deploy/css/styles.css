@@ -417,6 +417,20 @@ textarea {
 header {
   background-color: var(--dark-green);
 }
+header section {
+  display: grid;
+  grid-template-columns: 16px, auto, 16px;
+  grid-template-areas: ". header .";
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+header section img {
+  width: 50%;
+}
+header section form input {
+  background-color: var(--gray-blue);
+}
 
 /* =============
     Footer
