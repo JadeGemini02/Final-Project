@@ -113,17 +113,17 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Glowforge-logo_edited-01 1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1258,
-      "jF" : 0,
+    "\/assets\/Glowforge-logo_edited-01 1.png" : {
+      "ft" : 32768,
+      "iS" : 5149,
       "oA" : 0,
-      "oAP" : "\/assets\/Glowforge-logo_edited-01 1.jpg",
+      "oAP" : "\/assets\/Glowforge-logo_edited-01 1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/assets\/hobby_image 17.jpg" : {
@@ -279,6 +279,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -395,17 +403,17 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Glowforge-logo_edited-01 1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1258,
-      "jF" : 0,
+    "\/deploy\/img\/Glowforge-logo_edited-01 1.png" : {
+      "ft" : 32768,
+      "iS" : 5149,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Glowforge-logo_edited-01 1.jpg",
+      "oAP" : "\/deploy\/img\/Glowforge-logo_edited-01 1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/hobby_image 17.jpg" : {
@@ -570,21 +578,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/checkout.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
-    },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
     },
     "\/dev\/content\/checkout\/airfilter.kit" : {
       "cB" : 0,
@@ -859,7 +859,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_checkout.css",
       "oF" : 0,
       "oS" : 0,
@@ -874,7 +874,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_community.css",
       "oF" : 0,
       "oS" : 0,
@@ -889,7 +889,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_faq.css",
       "oF" : 0,
       "oS" : 0,
@@ -904,7 +904,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
@@ -919,7 +919,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_info.css",
       "oF" : 0,
       "oS" : 0,

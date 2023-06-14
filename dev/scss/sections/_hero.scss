@@ -1,15 +1,19 @@
 #hero{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero .";
-
     #hero-image{
-        width: 50%;
-        height: 65vh;
+        img{
+            width: 100%;
+        }
 
     }
 
     #hero-product{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". hero .";
 
+    >div{
+        grid-area: hero;
     }
+
+    } 
 }

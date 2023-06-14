@@ -1,47 +1,6 @@
 /* =============
     Base
 ============= */
-.header{
-    display: grid;
-    grid-template-columns: 16px auto auto;
-    grid-template-areas: ". header .";
-    background-color: var(--dark-green);
-}
-
-.hero{
-    display: grid;
-    grid-template-columns: auto;
-    grid-area: ". hero .";
-    margin-top: 32px;
-    width: 64vh;
-
-    background-image: url("../img/Home Image Frame.jpg");
-    background-position: center;
-    background-size: cover;
-
-}
-
-.hero-image{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero-image .";
-
-}
-
-.heart{
-text-align: right;
-padding-right: 108px;
-}
-
-.hero-product{
-    background-image: url("../img/bckgrnd image 1.jpg");
-    background-position: center;
-    background-size: cover;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
-}
 
 .includes{
     display: grid;
