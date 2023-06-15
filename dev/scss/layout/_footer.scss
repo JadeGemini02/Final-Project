@@ -1,3 +1,56 @@
 /* =============
     Footer
 ============= */
+ 
+#footer{
+    background-color: var(--dark-green);
+
+    display: grid;
+    grid-template-columns: 16px, auto, 16px;
+    grid-template-areas: ". footer .";
+    grid-area: footer;
+    padding-top: 16px;
+    text-align: center;
+
+    #note{
+
+        >div{
+
+            p{
+                color: white;
+
+            }
+
+            i{
+                width: 100%;
+                color: var(--light-blue);
+    
+            }
+        }
+    }
+
+    #link{
+
+        >div{
+
+            a{
+                color: white;
+                font-weight: 300;
+
+            }
+        }
+
+    }
+
+    #socials{
+
+        >div{
+
+            a{
+                width: 100%;
+                color: var(--light-blue);
+
+            }
+        }
+    }
+}

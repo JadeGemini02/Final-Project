@@ -1,63 +1,87 @@
- #community{
-    display: grid;
-    grid-template-columns: 16px, auto, 16px;
-    grid-template-areas: ". community .";
-    background-image: url("../img/bckgrnd image 3.jpg");
-    background-position: center;
-    background-size: cover;
-    
-    
-    
+#community{
+background-image: url("../img/bckgrnd image 3.jpg");
+background-position: center;
+background-size: cover;
+text-align: center;
+
     #text{
         display: grid;
         grid-template-columns: 16px, auto, 16px;
         grid-template-areas: ". text .";
-        grid-area: community;
+        grid-area: text;
     
         >div{
             grid-area: text;
             color: white;
             text-align: center;
+            padding-top: 64px;
+            padding-bottom: 32px;
+    
             h2{
-
+                font-size: rem-calc(24);
+                margin-bottom: 8px;
+    
             }
-
+    
             h3{
-
+                font-size: rem-calc(20);
+    
             }
             
         }
         
-     }
-     
-     section{
+    }
+
+    #com-images{
+
+        display: grid;
+        grid-template-columns: (3, 1fr);
+        grid-template-areas: ". com-images .";
+        padding-bottom: 64px;
+
+        section{
         
-        >div{
-            text-align: center;
-
-            img{
-                background-color: var(--blue-green);
-                padding: 16px;
-                border-radius: 16px;
-            }
-
-            button{
-                background-color: white;
-                border-radius: 24px;
-                padding: 8px;
-            }
-        }
-     }
-
-     section{
-        >div{
-
-            button{
-                
-                a{
-
+            >div{
+                grid-area: com-images;
+                text-align: center;
+                margin-bottom: 32px;
+    
+                img{
+                    width: 75%;
+                    background-color: var(--turquoise);
+                    padding: 12px;
+                    border-radius: 10px;
+                    
+                }
+    
+                button{
+                    background-color: white;
+                    font-size: rem-calc(16);
+                    border-radius: 24px;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    padding-left: 16px;
+                    padding-right: 16px;
                 }
             }
         }
-     }
- }
+
+        #view-more{
+            margin-top: 64px;
+            text-align: center;
+
+            >div{
+
+                button{
+
+                    a{
+                        color: var(--dark-green);
+
+                    }
+                }
+            }
+
+
+        }
+    }  
+}
