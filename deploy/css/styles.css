@@ -406,7 +406,7 @@ textarea {
 /* =============
     Navigation
 ============= */
-a {
+ul li a {
   text-decoration: none;
 }
 
@@ -430,7 +430,7 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
 ============= */
 header {
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: auto;
   grid-template-areas: "burger" "nav" "icon" "search";
   padding-top: 16px;
   padding-bottom: 16px;
@@ -481,6 +481,7 @@ header section section > div a i {
   align-items: center;
 }
 header section nav {
+  background-color: white;
   grid-area: nav;
   padding: 16px;
 }

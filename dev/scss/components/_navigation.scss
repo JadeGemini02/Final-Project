@@ -1,9 +1,15 @@
 /* =============
     Navigation
 ============= */
-a{
-    text-decoration: none;
+ul{
+    li{
+        a{
+            text-decoration: none;
+        }
+
+    }
 }
+
 nav{
     background-color: white;
     color: white;
