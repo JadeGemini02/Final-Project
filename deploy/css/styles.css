@@ -510,6 +510,7 @@ header section section {
 }
 header section section > div form input {
   background-color: var(--gray-blue);
+  color: white;
   border-radius: 16px;
   padding-left: 8px;
   padding-right: 8px;
