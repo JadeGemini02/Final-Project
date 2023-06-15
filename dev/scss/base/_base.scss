@@ -2,19 +2,3 @@
     Base
 ============= */
 
-.includes{
-    display: grid;
-        grid-template-columns: auto auto;
-        grid-template-areas: ". includes .";
-        margin-top: 16px;
-        
-    background-color: var(--white);
-
-    background-image: url("../img/bckgrnd image 2.jpg");
-    background-position: center;
-    background-size: cover;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-

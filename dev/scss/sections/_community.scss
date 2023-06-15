@@ -1,0 +1,63 @@
+ #community{
+    display: grid;
+    grid-template-columns: 16px, auto, 16px;
+    grid-template-areas: ". community .";
+    background-image: url("../img/bckgrnd image 3.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+    #text{
+        display: grid;
+        grid-template-columns: 16px, auto, 16px;
+        grid-template-areas: ". text .";
+        grid-area: community;
+    
+        >div{
+            grid-area: text;
+            color: white;
+            text-align: center;
+            h2{
+
+            }
+
+            h3{
+
+            }
+            
+        }
+        
+     }
+     
+     section{
+        
+        >div{
+            text-align: center;
+
+            img{
+                background-color: var(--blue-green);
+                padding: 16px;
+                border-radius: 16px;
+            }
+
+            button{
+                background-color: white;
+                border-radius: 24px;
+                padding: 8px;
+            }
+        }
+     }
+
+     section{
+        >div{
+
+            button{
+                
+                a{
+
+                }
+            }
+        }
+     }
+ }

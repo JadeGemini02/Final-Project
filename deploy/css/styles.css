@@ -334,20 +334,6 @@ template {
 /* =============
     Base
 ============= */
-.includes {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-areas: ". includes .";
-  margin-top: 16px;
-  background-color: var(--white);
-  background-image: url("../img/bckgrnd image 2.jpg");
-  background-position: center;
-  background-size: cover;
-  padding-left: 16px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
 /* =============
     Typography
 ============= */
@@ -416,6 +402,7 @@ textarea {
 ============= */
 header {
   background-color: var(--dark-green);
+  grid-area: header;
 }
 header section {
   display: grid;
@@ -425,10 +412,13 @@ header section {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-header section img {
+header section > div a {
+  grid-area: profile-icon;
+}
+header section > div img {
   width: 50%;
 }
-header section form input {
+header section > div form input {
   background-color: var(--gray-blue);
 }
 
@@ -442,11 +432,63 @@ header section form input {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero .";
+  text-align: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: white;
+  background-image: url("../img/bckgrnd image 1.jpg");
+  background-position: center;
+  background-size: cover;
 }
 #hero #hero-product > div {
   grid-area: hero;
 }
+#hero #hero-product > div section #arrows button {
+  margin-right: 16px;
+}
+#hero #hero-product > div section #arrows button {
+  margin-left: 16px;
+}
+#hero #hero-product > div section #manual a {
+  padding-bottom: 16px;
+}
+#hero #hero-product > div section > div h1 {
+  padding-top: 32px;
+}
+#hero #hero-product > div section > div a {
+  color: white;
+}
+#hero #hero-product > div section > div p {
+  background-color: var(--turquoise);
+  border-radius: 24px;
+  border-color: white;
+  padding: 16px;
+}
+#hero #hero-product > div section > div #cart {
+  background-color: var(--yellow);
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 24px;
+}
+#hero #hero-product > div section > div #cart a {
+  color: var(--dark-green);
+}
 
+#includes {
+  display: grid;
+  grid-template-columns: 32px, auto, 16px;
+  grid-template-areas: ". includes .";
+  color: white;
+  background-image: url("../img/bckgrnd image 2.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 16px;
+  padding-top: 64px;
+  padding-bottom: 16px;
+}
 #includes > div section {
   grid-area: includes;
 }
@@ -457,4 +499,36 @@ header section form input {
 }
 #includes > div section p {
   font-size: 1.125rem;
+}
+#community {
+  display: grid;
+  grid-template-columns: 16px, auto, 16px;
+  grid-template-areas: ". community .";
+  background-image: url("../img/bckgrnd image 3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#community #text {
+  display: grid;
+  grid-template-columns: 16px, auto, 16px;
+  grid-template-areas: ". text .";
+  grid-area: community;
+}
+#community #text > div {
+  grid-area: text;
+  color: white;
+  text-align: center;
+}
+#community section > div {
+  text-align: center;
+}
+#community section > div img {
+  background-color: var(--blue-green);
+  padding: 16px;
+  border-radius: 16px;
+}
+#community section > div button {
+  background-color: white;
+  border-radius: 24px;
+  padding: 8px;
 }

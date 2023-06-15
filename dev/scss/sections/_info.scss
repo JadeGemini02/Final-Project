@@ -1,7 +1,21 @@
 #includes{
+
+            display: grid;
+            grid-template-columns: 32px, auto, 16px;
+            grid-template-areas: ". includes .";
+            color: white;
+        
+
+            background-image: url("../img/bckgrnd image 2.jpg");
+            background-position: center;
+            background-size: cover;
+            padding-left: 16px;
+            padding-top: 64px;
+            padding-bottom: 16px;
         
     
         >div{
+            
             section{
 
                 grid-area: includes;
@@ -16,13 +30,32 @@
                 p{
                     font-size: rem-calc(18);
     
-                }
+                } 
     
                 ul{
                     li{
                     
                     }
                 }
+            }
+
+            section{
+
+                p{
+                    ul{
+                        li{
+
+                        }
+                    }
+                }
+            }
+
+            section{
+
+                p{
+
+                }
+            
             }
 
         }

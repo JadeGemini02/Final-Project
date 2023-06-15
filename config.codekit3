@@ -333,7 +333,7 @@
       "oAP" : "\/deploy\/img\/bckgrnd image 1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -346,7 +346,7 @@
       "oAP" : "\/deploy\/img\/bckgrnd image 2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -359,7 +359,7 @@
       "oAP" : "\/deploy\/img\/bckgrnd image 3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -372,7 +372,7 @@
       "oAP" : "\/deploy\/img\/bckgrnd image 4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

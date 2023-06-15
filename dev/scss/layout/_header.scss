@@ -4,38 +4,55 @@
 
 header{
     background-color: var(--dark-green);
+    grid-area: header;
 
     section{
-
-        a{
-            i{
-            
-            }
-            
-        }
-    }
-
-    section{
-        img{
-            width: 50%;
-
-        }
-
         display: grid;
         grid-template-columns: 16px, auto, 16px;
         grid-template-areas: ". header .";
         text-align: center;
         padding-top: 4px;
         padding-bottom: 4px;
+        
+        >div{
+
+            a{
+                grid-area: profile-icon;
+                i{
+                
+                }
+                
+            }
+
+        }
+
     }
 
     section{
-        form{
+        >div{
+            
+            img{
+                
+                width: 50%;
+    
+            }
+    
+            
+        }
+        
+    }
 
-            input{
-                background-color: var(--gray-blue);
+    section{
+        >div{
+            form{
+                
 
+                input{
+                    background-color: var(--gray-blue);
+    
+                }
             }
         }
+        
     }
 }
