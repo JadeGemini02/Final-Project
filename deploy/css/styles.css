@@ -376,12 +376,15 @@ form {
 /* =============
     Buttons
 ============= */
+button a {
+  text-decoration: none;
+}
+
 section > div #cart a:link, section > div #cart a:visited {
   display: inline-block;
   transition: 0.25s;
 }
 section > div #cart a:link:hover, section > div #cart a:link:active, section > div #cart a:visited:hover, section > div #cart a:visited:active {
-  background-color: var(--dark-green);
   color: var(--white);
 }
 

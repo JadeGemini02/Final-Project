@@ -2,6 +2,11 @@
     Buttons
 ============= */
 
+button{
+    a{
+        text-decoration: none;
+    }
+}
 section{
 
     >div{
@@ -12,7 +17,6 @@ section{
                 transition: 0.25s;
     
                 &:hover, &:active{
-                    background-color: var(--dark-green);
                     color: var(--white);
     
                 }
