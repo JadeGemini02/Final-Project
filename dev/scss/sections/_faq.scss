@@ -4,7 +4,7 @@
     background-size: cover;
     padding-top: 32px;
     padding-bottom: 32px;
-    text-align: center;
+    
 
     h2{
         text-align: center;
@@ -16,17 +16,20 @@
     display: grid;
     grid-template-columns: 16px, auto, 16px;
     grid-template-areas: ". questions .";
-    text-align: center;
     color: white;
     grid-area: questions;
-        
+
     }
 
     section{
+        float: left;
+        width: 50%;
         >div{
             ul{
                 li{
-                    text-align: center;
+                    h3{
+                        text-align: left;
+                    }
         
                 }
             }
@@ -35,11 +38,9 @@
         
     }
 
-    
-    
+    text-align: center;
     button{
         background-color: white;
-        text-align: center;
         margin-top: 32px;
         padding: 8px;
         border-radius: 24px;

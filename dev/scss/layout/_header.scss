@@ -3,56 +3,124 @@
 ============= */
 
 header{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+    "burger" 
+    "nav"
+    "icon"
+    "search";
+ 
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: var(--dark-green);
-    grid-area: header;
 
-    section{
+    @include sm{
         display: grid;
-        grid-template-columns: 16px, auto, 16px;
-        grid-template-areas: ". header .";
-        text-align: center;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        
-        >div{
-
-            a{
-                grid-area: profile-icon;
-                i{
-                
-                }
-                
-            }
-
-        }
+        grid-template-columns: repeat(50% 50%);
 
     }
 
-    section{
-        >div{
-            
-            img{
-                
-                width: 50%;
-    
-            }
-    
-            
-        }
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(50% 50%);
+        
+    }
+
+    @include lg{
+            display: grid;
+            grid-template-columns: repeat(50% 50%);
+    }
+
+    @include xl{
+        display: grid;
+        grid-template-columns: repeat(50% 50%);
         
     }
 
     section{
-        >div{
-            form{
-                
 
-                input{
+        #burger-container{
+            grid-area: burger;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            i{
+                font-size: rem-calc(30);
+            }
+        }
+    
+        section{ 
+            grid-area: icon;
+            padding: 16px;
+            
+            >div{
+    
+                a{
+                    i{
                     background-color: var(--gray-blue);
+                    border-radius: 100%;
+                    padding: 16px;
+                    display: flex;
+                    align-items: center;
+                    
+                    }
+                    
+                }
     
+            }
+    
+        }
+    
+        nav{
+            grid-area: nav;
+            padding: 16px;
+
+            ul{
+                li{
+                    list-style: none;
+
+                    a{
+                        padding: 0;
+                        img{
+                            background-color: var(--dark-green);
+                            padding-right: 32px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: var(--dark-green);
+                            overflow: hidden;
+                            width: 100%;
+                            display: inline-block;
+                        }
+                        
+                    }
                 }
             }
         }
         
-    }
-}
+            section{
+                grid-area: search;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                >div{
+                    
+                    form{
+    
+                        i{
+                            
+                        }
+        
+                        input{
+                            background-color: var(--gray-blue);
+                            border-radius: 16px;
+                            padding-left: 8px;
+                            padding-right: 8px;
+            
+                        }
+                    }
+                }   
+            }
+        }
+    } 

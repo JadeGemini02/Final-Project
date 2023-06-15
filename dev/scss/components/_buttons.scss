@@ -1,3 +1,24 @@
 /* =============
     Buttons
 ============= */
+
+section{
+
+    >div{
+        #cart{
+
+            a:link, a:visited{
+                display: inline-block;
+                transition: 0.25s;
+    
+                &:hover, &:active{
+                    background-color: var(--dark-green);
+                    color: var(--white);
+    
+                }
+            }
+            
+
+        }
+    }
+}

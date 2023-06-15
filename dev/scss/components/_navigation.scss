@@ -1,3 +1,27 @@
 /* =============
     Navigation
 ============= */
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: white;
+    color: white;
+
+    ul{
+        li{
+            a:link, a:visited{
+                color: var(--dark-green);
+                padding: 16px;
+                padding-left: 0;
+                display: inline-block;
+                transition: 0.25s;
+
+                &:hover, &:active{
+                    color: var(--turquoise);
+
+                }
+            }
+        }
+    }
+}

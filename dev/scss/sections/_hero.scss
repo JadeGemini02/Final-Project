@@ -1,4 +1,8 @@
 #hero {
+    background-image: url("../img/bckgrnd image 1.jpg");
+    background-position: center;
+    background-size: cover;
+
     #hero-image {
         img {
             width: 100%;
@@ -14,10 +18,6 @@
         padding-bottom: 32px;
         padding-top: 32px;
         color: white;
-
-        background-image: url("../img/bckgrnd image 1.jpg");
-        background-position: center;
-        background-size: cover;
 
 
         >div {
@@ -86,8 +86,9 @@
                         padding-left: 16px;
                         padding-right: 16px;
                         border-radius: 24px;
+                        
                         a{
-                            color: var(--dark-green);
+                            color: var(--dark-green)
 
                         }
                         

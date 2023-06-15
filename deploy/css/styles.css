@@ -376,6 +376,15 @@ form {
 /* =============
     Buttons
 ============= */
+section > div #cart a:link, section > div #cart a:visited {
+  display: inline-block;
+  transition: 0.25s;
+}
+section > div #cart a:link:hover, section > div #cart a:link:active, section > div #cart a:visited:hover, section > div #cart a:visited:active {
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
 /* =============
     Forms
 ============= */
@@ -397,29 +406,112 @@ textarea {
 /* =============
     Navigation
 ============= */
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: white;
+  color: white;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: var(--dark-green);
+  padding: 16px;
+  padding-left: 0;
+  display: inline-block;
+  transition: 0.25s;
+}
+nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+  color: var(--turquoise);
+}
+
 /* =============
     Header
 ============= */
 header {
-  background-color: var(--dark-green);
-  grid-area: header;
-}
-header section {
   display: grid;
-  grid-template-columns: 16px, auto, 16px;
-  grid-template-areas: ". header .";
-  text-align: center;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  grid-template-columns: 20% auto;
+  grid-template-areas: "burger" "nav" "icon" "search";
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: var(--dark-green);
 }
-header section > div a {
-  grid-area: profile-icon;
+@media (min-width: 576px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(50% 50%);
+  }
 }
-header section > div img {
-  width: 50%;
+@media (min-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(50% 50%);
+  }
 }
-header section > div form input {
+@media (min-width: 1024px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(50% 50%);
+  }
+}
+@media (min-width: 1440px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(50% 50%);
+  }
+}
+header section #burger-container {
+  grid-area: burger;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+header section #burger-container i {
+  font-size: 1.875rem;
+}
+header section section {
+  grid-area: icon;
+  padding: 16px;
+}
+header section section > div a i {
   background-color: var(--gray-blue);
+  border-radius: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+header section nav {
+  grid-area: nav;
+  padding: 16px;
+}
+header section nav ul li {
+  list-style: none;
+}
+header section nav ul li a {
+  padding: 0;
+}
+header section nav ul li a img {
+  background-color: var(--dark-green);
+  padding-right: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-green);
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+}
+header section section {
+  grid-area: search;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header section section > div form input {
+  background-color: var(--gray-blue);
+  border-radius: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 /* =============
@@ -448,8 +540,14 @@ header section > div form input {
 #footer #socials > div a {
   width: 100%;
   color: var(--light-blue);
+  padding-right: 16px;
 }
 
+#hero {
+  background-image: url("../img/bckgrnd image 1.jpg");
+  background-position: center;
+  background-size: cover;
+}
 #hero #hero-image img {
   width: 100%;
 }
@@ -461,9 +559,6 @@ header section > div form input {
   padding-bottom: 32px;
   padding-top: 32px;
   color: white;
-  background-image: url("../img/bckgrnd image 1.jpg");
-  background-position: center;
-  background-size: cover;
 }
 #hero #hero-product > div {
   grid-area: hero;
@@ -552,9 +647,37 @@ header section > div form input {
 }
 #community #com-images {
   display: grid;
-  grid-template-columns: 3, 1fr;
+  grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-areas: ". com-images .";
   padding-bottom: 64px;
+}
+@media (min-width: 576px) {
+  #community #com-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3" "n4 n5 n6";
+  }
+}
+@media (min-width: 768px) {
+  #community #com-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3" "n4 n5 n6";
+  }
+}
+@media (min-width: 1440px) {
+  #community #com-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3" "n4 n5 n6";
+  }
+}
+@media (min-width: 1024px) {
+  #community #com-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "n1 n2 n3" "n4 n5 n6";
+  }
 }
 #community #com-images section > div {
   grid-area: com-images;
@@ -571,16 +694,47 @@ header section > div form input {
   background-color: white;
   font-size: 1rem;
   border-radius: 24px;
-  padding-top: 8px;
-  padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
 }
-#community #com-images #view-more {
-  margin-top: 64px;
-  text-align: center;
+@media (min-width: 768px) {
+  #community #com-images #n1 {
+    grid-area: n1;
+  }
 }
-#community #com-images #view-more > div button a {
+@media (min-width: 768px) {
+  #community #com-images #n2 {
+    grid-area: n2;
+  }
+}
+@media (min-width: 768px) {
+  #community #com-images #n3 {
+    grid-area: n3;
+  }
+}
+@media (min-width: 768px) {
+  #community #com-images #n4 {
+    grid-area: n4;
+  }
+}
+@media (min-width: 768px) {
+  #community #com-images #n5 {
+    grid-area: n5;
+  }
+}
+@media (min-width: 768px) {
+  #community #com-images #n6 {
+    grid-area: n6;
+  }
+}
+#community #view > div button {
+  background-color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 24px;
+  margin-bottom: 64px;
+}
+#community #view > div button a {
   color: var(--dark-green);
 }
 
@@ -600,16 +754,18 @@ header section > div form input {
   display: grid;
   grid-template-columns: 16px, auto, 16px;
   grid-template-areas: ". questions .";
-  text-align: center;
   color: white;
   grid-area: questions;
 }
-#faq section > div ul li {
-  text-align: center;
+#faq section {
+  float: left;
+  width: 50%;
+}
+#faq section > div ul li h3 {
+  text-align: left;
 }
 #faq button {
   background-color: white;
-  text-align: center;
   margin-top: 32px;
   padding: 8px;
   border-radius: 24px;
