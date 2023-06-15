@@ -78,14 +78,25 @@ header{
             padding: 16px;
 
             ul{
+
+                @include md{
+                    display: flex;
+                    align-items: center;
+                
+                }
                 li{
+                    @include md{
+                        margin-left: 24px;
+                        align-items: center;
+                    
+                    }
+
                     list-style: none;
 
                     a{
                         padding: 0;
                         img{
                             background-color: var(--dark-green);
-                            padding-right: 32px;
                             display: flex;
                             justify-content: center;
                             align-items: center;

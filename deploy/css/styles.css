@@ -485,15 +485,26 @@ header section nav {
   grid-area: nav;
   padding: 16px;
 }
+@media (min-width: 768px) {
+  header section nav ul {
+    display: flex;
+    align-items: center;
+  }
+}
 header section nav ul li {
   list-style: none;
+}
+@media (min-width: 768px) {
+  header section nav ul li {
+    margin-left: 24px;
+    align-items: center;
+  }
 }
 header section nav ul li a {
   padding: 0;
 }
 header section nav ul li a img {
   background-color: var(--dark-green);
-  padding-right: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
